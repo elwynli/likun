@@ -1,0 +1,63 @@
+:root {
+    --color-light: white;
+}
+
+body {
+    line-height: 120%;
+}
+
+#header {
+    border-bottom: none;
+}
+#footer {
+	border-top: none;
+}
+#header,
+nav.navbar {
+    background-color: #eee !important;
+}
+
+#menu ul li,
+#toptranslations ul li {
+	margin: 0 .6rem;
+}
+
+.is-me {
+    background-color: white !important;
+}
+
+picture.image img {
+    border-radius: 10px;
+}
+:link {
+	text-decoration: none;
+}
+:visited {
+	color: rgba(0,0,0,.5);
+}
+:link:hover, :visited:hover {
+	color: rgba(0,0,0,.9);
+}
+
+nav li a {
+	color: rgba(0,0,0,.5);
+}
+
+nav li.active a {
+	color: rgba(0,0,0);
+}
+
+.pname {
+    color: gray;
+    display: inline-block;
+    width: 6rem;
+}
+.pvalue {
+    font-weight: bold;
+}
+
+article h3,
+article h4,
+article h5 {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,59 @@
+## -*- coding: utf-8 -*-
+<%namespace name="helper" file="index_helper.tmpl"/>
+<%namespace name="math" file="math_helper.tmpl"/>
+<%namespace name="comments" file="comments_helper.tmpl"/>
+<%namespace name="pagination" file="pagination_helper.tmpl"/>
+<%namespace name="feeds_translations" file="feeds_translations_helper.tmpl" import="*"/>
+<%inherit file="base.tmpl"/>
+
+<%block name="extra_head">
+    ${parent.extra_head()}
+    % if posts and (permalink == '/' or permalink == '/' + index_file):
+        <link rel="prefetch" href="${posts[0].permalink()}" type="text/html">
+    % endif
+    ${math.math_styles_ifposts(posts)}
+</%block>
+
+<%block name="content">
+<%block name="content_header">
+    ${feeds_translations.translation_link(kind)}
+</%block>
+% if 'main_index' in pagekind:
+    ${front_index_header}
+% endif
+% if page_links:
+    ${pagination.page_navigation(current_page, page_links, prevlink, nextlink, prev_next_links_reversed)}
+% endif
+
+<div class="columns p-3">
+    <div class="column is-one-third">
+        <picture class="image">
+            <source srcset="/assets/images/me.png" media="(orientation: portrait)" />
+            <img src="/assets/images/me.png" alt="profile picture" />
+        </picture>
+    </div>
+    <div class="column content">
+        <h3 class="is-size-5">个人简介</h3>
+        <p>
+            ${intro}
+        </p>
+        <h3 class="is-size-5">联系方式</h3>
+        <p>
+            <span class="pname">电子邮件：</span><span class="pvalue email"></span>
+        </p>
+        <h3 class="is-size-5">链接</h3>
+        <p>
+            %for pname, pvalue, href in links:
+                <span class="pname">${pname}: </span><span class="pvalue"><a href="${href}" target="_blank">${pvalue}</a></span><br>
+            %endfor
+        </p>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const $email = Array.prototype.slice.call(document.querySelectorAll('.email'), 0);
+        const email = '${blog_email}'.replace('^', '@').split('@');
+        $email.forEach(el => {el.innerText = [email[0], '@', email[1]].join('');});
+    });
+</script>
+</%block>
