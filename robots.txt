@@ -1,0 +1,4 @@
+Sitemap: https://likun.cc/sitemapindex.xml
+
+User-Agent: *
+Host: likun.cc

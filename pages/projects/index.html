@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html prefix="        og: http://ogp.me/ns# article: http://ogp.me/ns/article#     " vocab="http://ogp.me/ns" lang="zh_cn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>项目 - 李昆</title>
+<link href="../../assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/rst_base.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="../../assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/bulma.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/custom.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="zh_cn" href="../../rss.xml">
+<link rel="canonical" href="https://likun.cc/pages/projects/">
+<!--[if lt IE 9]><script src="../../assets/js/html5shiv-printshiv.min.js"></script><![endif]--><meta name="author" content="李昆">
+<meta property="og:site_name" content="李昆">
+<meta property="og:title" content="项目">
+<meta property="og:url" content="https://likun.cc/pages/projects/">
+<meta property="og:description" content='&lt;article&gt;
+        &lt;h3 class="is-size-4"&gt;项目列表&lt;/h3&gt;
+        &lt;table class="table is-striped is-narrow is-hoverable is-fullwidth"&gt;
+            &lt;tbody&gt;
+                &lt;% _.each(obj, function(o, i, l){ %&gt;
+'>
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-01-24T00:40:43+08:00">
+</head>
+<body>
+    <a href="#content" class="sr-only sr-only-focusable">跳到主内容</a>
+    
+    <header id="header"><div class="container">
+            
+
+            
+    <nav class="navbar" role="navigation" aria-label="main navigation"><div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                
+                <a class="navbar-item" href="../../">首页</a>
+                <a class="navbar-item" href="../resume/">简历</a>
+                <a class="navbar-item is-me" href=".">项目</a>
+                <a class="navbar-item" href="../services/">服务</a>
+                <a class="navbar-item" href="../posts/">文章</a>
+
+                
+
+                
+                
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a href="../../en/" class="is-light"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    </header><div class="container">
+        <main id="content" class="m-3"><article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header></header><div class="e-content entry-content" itemprop="articleBody text">
+    <div id="target"></div>
+<script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script><script type="text/template" id="tpl">
+    <article>
+        <h3 class="is-size-4">项目列表</h3>
+        <table class="table is-striped is-narrow is-hoverable is-fullwidth">
+            <tbody>
+                <% _.each(obj, function(o, i, l){ %>
+                <tr>
+                    <td class="p-5">
+                        <h5 class="title is-size-5">
+                            <a href="<%= o.href %>" target="_blank"><%= o.name %></a>
+                        </h5>
+                        <div class="tags">
+                            <% _.each(o.tags, function(o2, i2, l2){ %>
+                                <span class="tag"><%= o2 %></span>
+                            <% }) %>
+                        </div>
+                        <p class="m-2"><%= o.desc %></p>
+                    </td>
+                    <td class="p-5" style="width: 120px">
+                        <%= o.src %>
+                    </td>
+                </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </article>
+</script><script>
+    document.addEventListener('DOMContentLoaded', () => {
+        var data = [{
+            'name': 'HW终端BG合规数字化平台',
+            'href': '',
+            'tags': ['Java', 'SpringBoot', 'Angular', 'HTML', 'CSS', 'JavaScript', 'GaussDB', 'Python', 'Flask', 'MySQL'],
+            'desc': '业务合规风险防火墙。按合规领域和合规专项管理合规风险，异构数据 x 多模态AI x 算法，实现全面智能的合规风险管理机制。',
+            'src': ''
+        }, {
+            'name': 'HW终端外包合作可视化平台',
+            'href': '',
+            'tags': ['Java', 'SpringBoot', 'Angular', 'HTML', 'CSS', 'JavaScript', 'GaussDB', 'MySQL', 'Tabular'],
+            'desc': '外包合作业务数字化运营平台，规划、预算、合同、工时、成本、账单、产能，能效度量。',
+            'src': ''
+        }, {
+            'name': 'HW终端财经精细化运营管理平台',
+            'href': '',
+            'tags': ['Java', 'SpringBoot', 'Angular', 'HTML', 'CSS', 'JavaScript', 'GaussDB', 'MySQL', 'Tabular', '帆软'],
+            'desc': '财经数字化运营平台，主要服务中层管理以上和CEO办公室。',
+            'src': ''
+        }, {
+            'name': '万联芯在线商城 Shop + ERP',
+            'href': '//www.wlxmall.com',
+            'tags': ['PHP', 'VO', 'Layui', 'HTML', 'CSS', 'JavaScript', 'MySQL', 'Elasticsearch'],
+            'desc': 'IC元器件芯片领域类JD商城+ERP。搜索规则引擎。',
+            'src': ''
+        }, {
+            'name': '高考与高校招生数据平台',
+            'href': '',
+            'tags': ['PHP', 'HTML', 'CSS', 'JavaScript', 'C#', 'OCR Service'],
+            'desc': '高考数据类垂类 Top App 数据支持服务',
+            'src': ''
+        }, {
+            'name': '超级计算机计算资源管理系统',
+            'href': '',
+            'tags': ['PHP', 'HTML', 'CSS', 'JavaScript', 'OpenStack', 'Python', 'Redis', 'MySQL', 'FastAPI'],
+            'desc': '通过 OpenStack 项目集二开满足对租户计算资源（含 GPU）的管理和控制。',
+            'src': ''
+        }, {
+            'name': '金融大数据反欺平台',
+            'href': '',
+            'tags': ['HTML', 'CSS', 'JavaScript', 'Python', 'NumPy', 'Pandas', 'Matplotlib'],
+            'desc': '集成、管理、存储和分析金融数据，通过模型将金融账户、人、公司，交易行为数据集成分析，形成可交互报告，供金融反欺诈工作人员进行人工分析。<br>对标 IBM i2、Palantir Gotham，含基本实体视图，关联搜索，智能标记、智能表格、分析报告、反欺项目，底稿记录等。',
+            'src': ''
+        }, {
+            'name': '证券投研数据管理平台',
+            'href': '',
+            'tags': ['HTML', 'CSS', 'JavaScript', 'Python', 'Django', 'MySQL', 'Node.js', 'MongoDB', 'MicroMsg', 'Elasticsearch'],
+            'desc': '证券研究所合作项目，通过将多来源投研数据集中采集、存储、分析，供卖方产出投研报告，以服务于买方投资分析师。',
+            'src': ''
+        }, {
+            'name': '量化智能投研平台',
+            'href': '',
+            'tags': ['C++', 'OrientDB', 'Wind SQL Server', 'DFCF MongoDB'],
+            'desc': '量化投资平台，集成金融大数据，呈现数据间的逻辑（知识图谱），AI 捕获交易信号。',
+            'src': ''
+        }, {
+            'name': 'IT外包管理系统',
+            'href': '',
+            'tags': ['Java', 'Spring', 'MySQL', 'EChart', 'Hadoop', 'WEUI'],
+            'desc': '管理外包活动，服务银行管理层、外包管理部门、银监会，管理供应商公司、外购项目，项目人员等数据。',
+            'src': ''
+        }, {
+            'name': '银行会计基础信息管理系统/对公信贷风险管理系统/现场审计系统/非现场审计系统/e报CMS/...',
+            'href': '',
+            'tags': ['HTML', 'CSS', 'JavaScript', 'C#', 'Asp.NET', 'DB2', 'Delphi', '...'],
+            'desc': '银行部门各系统',
+            'src': ''
+        }, {
+            'name': '运营技术中心 ITIL 系统',
+            'href': '',
+            'tags': ['HTML', 'CSS', 'JavaScript', 'C#', 'Asp.NET', 'MySQL', 'WinForm', 'C++', 'Com+'],
+            'desc': 'ITIL框架低代码平台，含服务支持和服务交付两子系统。<br>包含ITIL 服务台、配置管理、事件管理、问题管理、变更管理、发布管理、服务级别管理、服务目录管理',
+            'src': ''
+        }, {
+            'name': 'likun.cc',
+            'href': '//likun.cc',
+            'tags': ['HTML', 'CSS', 'JavaScript', 'Python', 'Jamstack', 'underscore.js'],
+            'desc': '构建此网站的源代码',
+            'src': '<a href="https://github.com/elwynli/likun" target="_blank"><span class="icon"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></span></a>'
+        }];
+        var template = _.template(document.querySelector("#tpl").innerHTML);
+        document.querySelector("#target").outerHTML = template(data);
+    });
+</script>
+</div>
+    
+
+</article></main>
+</div>
+    
+
+    
+            <script src="../../assets/js/baguetteBox.min.js"></script><script>
+    baguetteBox.run('main#content', {
+        ignoreClass: 'islink',
+        captions: function(element){
+            var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;
+        }
+    });
+    document.addEventListener('DOMContentLoaded', () => {
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+            });
+        });
+    });
+    </script>
+</body>
+</html>

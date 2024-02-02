@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html prefix="        og: http://ogp.me/ns# article: http://ogp.me/ns/article#     " vocab="http://ogp.me/ns" lang="zh_cn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>服务 - 李昆</title>
+<link href="../../assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/rst_base.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="../../assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/bulma.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/custom.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="zh_cn" href="../../rss.xml">
+<link rel="canonical" href="https://likun.cc/pages/services/">
+<!--[if lt IE 9]><script src="../../assets/js/html5shiv-printshiv.min.js"></script><![endif]--><meta name="author" content="李昆">
+<meta property="og:site_name" content="李昆">
+<meta property="og:title" content="服务">
+<meta property="og:url" content="https://likun.cc/pages/services/">
+<meta property="og:description" content='&lt;article&gt;
+        &lt;h3 class="is-size-4"&gt;服务列表&lt;/h3&gt;
+        &lt;table class="table is-striped is-narrow is-hoverable is-fullwidth"&gt;
+            &lt;tbody&gt;
+                &lt;% _.each(obj, function(o, i, l){ %&gt;
+'>
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-01-24T00:41:25+08:00">
+</head>
+<body>
+    <a href="#content" class="sr-only sr-only-focusable">跳到主内容</a>
+    
+    <header id="header"><div class="container">
+            
+
+            
+    <nav class="navbar" role="navigation" aria-label="main navigation"><div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                
+                <a class="navbar-item" href="../../">首页</a>
+                <a class="navbar-item" href="../resume/">简历</a>
+                <a class="navbar-item" href="../projects/">项目</a>
+                <a class="navbar-item is-me" href=".">服务</a>
+                <a class="navbar-item" href="../posts/">文章</a>
+
+                
+
+                
+                
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a href="../../en/" class="is-light"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    </header><div class="container">
+        <main id="content" class="m-3"><article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header></header><div class="e-content entry-content" itemprop="articleBody text">
+    <div id="target"></div>
+<script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script><script type="text/template" id="tpl">
+    <article>
+        <h3 class="is-size-4">服务列表</h3>
+        <table class="table is-striped is-narrow is-hoverable is-fullwidth">
+            <tbody>
+                <% _.each(obj, function(o, i, l){ %>
+                <tr>
+                    <td class="p-5">
+                        <h5 class="title is-size-5">
+                            <a href="<%= o.href %>" target="_blank"><%= o.name %></a>
+                        </h5>
+                        <div class="tags">
+                            <% _.each(o.tags, function(o2, i2, l2){ %>
+                                <span class="tag is-primary"><%= o2 %></span>
+                            <% }) %>
+                        </div>
+                        <p class="m-2"><%= o.desc %></p>
+                    </td>
+                    <td class="p-5" style="width: 120px">
+                        <%= o.src %>
+                    </td>
+                </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </article>
+</script><script>
+    document.addEventListener('DOMContentLoaded', () => {
+        var data = [{
+            'name': 'a. 软件相关问题解答服务',
+            'href': '',
+            'tags': ['免费服务'],
+            'desc': '与软件有关的疑难和疑问，如软件选型、软件开发、研发管理相关的问题，可通过我的微信公众号或知乎平台向我提问。',
+            'src': ''
+        }, {
+            'name': 'b. 软件相关问题咨询服务',
+            'href': '',
+            'tags': ['付费服务'],
+            'desc': '与软件有关的问题、IT开发需求、软件定制，可电子邮件联系我，按问题决策点和规模，我会提供服务流程进行评估，并提供咨询服务。',
+            'src': ''
+        }];
+        var template = _.template(document.querySelector("#tpl").innerHTML);
+        document.querySelector("#target").outerHTML = template(data);
+    });
+</script>
+</div>
+    
+
+</article></main>
+</div>
+    
+
+    
+            <script src="../../assets/js/baguetteBox.min.js"></script><script>
+    baguetteBox.run('main#content', {
+        ignoreClass: 'islink',
+        captions: function(element){
+            var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;
+        }
+    });
+    document.addEventListener('DOMContentLoaded', () => {
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+            });
+        });
+    });
+    </script>
+</body>
+</html>
