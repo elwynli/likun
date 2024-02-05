@@ -49,10 +49,13 @@
         </p>
     </div>
 </div>
+</%block>
+
+<%block name="extra_js">
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const $email = Array.prototype.slice.call(document.querySelectorAll('.email'), 0);
-        const email = '${blog_email}'.replace('^', '@').split('@');
+        const email = '${contact}'.replace('^', '@').split('@');
         $email.forEach(el => {el.innerText = [email[0], '@', email[1]].join('');});
     });
 </script>
