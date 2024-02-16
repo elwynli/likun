@@ -1419,7 +1419,7 @@ WARN_ABOUT_TAG_METADATA = False
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    'about': 'Likun.cc 由来：<a href="/about-likun-cc.html">助您更省时地看简历</a>',
+    'about': 'Likun.cc 由来：<a href="/posts/about-likun-cc/">方便您看简历</a>',
     'intro': '李昆 (Elwyn Li)：程序员 / 项目管理 / 讲师，懂编程，懂业务，懂AI；<br>曾在华为、招行、腾讯、中广核集团从事软件研发与管理工作，任工程师、经理。',
     'contact': BLOG_EMAIL.replace('@', '^'),
     'links': (
