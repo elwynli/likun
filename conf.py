@@ -1036,7 +1036,7 @@ COMMENT_SYSTEM = "disqus"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = "nikolademo"
+COMMENT_SYSTEM_ID = "likun-cc"
 
 # Create index.html for page folders?
 # WARNING: if a page would conflict with the index file (usually
@@ -1419,10 +1419,12 @@ WARN_ABOUT_TAG_METADATA = False
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    'intro': '李昆 (Elwyn Li)：程序员 / 项目管理 / 讲师<br>曾在华为、招行、腾讯、中广核集团从事软件研发与管理工作，任工程师、经理。',
+    'about': 'Likun.cc 由来：<a href="/about-likun-cc.html">助您更省时地看简历</a>',
+    'intro': '李昆 (Elwyn Li)：程序员 / 项目管理 / 讲师，懂编程，懂业务，懂AI；<br>曾在华为、招行、腾讯、中广核集团从事软件研发与管理工作，任工程师、经理。',
     'contact': BLOG_EMAIL.replace('@', '^'),
     'links': (
-        ('WebSite', SITE_URL, SITE_URL),
+        ('本站', SITE_URL, SITE_URL),
+        ('CI站', 'https://dev.likun.cc', 'https://dev.likun.cc'),
         ('GitHub', 'ElwynLi', 'https://github.com/elwynli'),
     )
 }
