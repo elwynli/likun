@@ -259,3 +259,4 @@
 'render_taxonomies:output\\categories\\bulma.xml', (472576, 523)
 'render_taxonomies:output\\categories\\nikola.xml', (473600, 523)
 'render_taxonomies:output\\categories\\nikola\\index.html', (474624, 1831)
+'copy_assets:output\\assets\\js\\baguetteBox.min.css', (476672, 303)
