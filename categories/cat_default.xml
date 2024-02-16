@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>李昆 (关于 default 的文章)</title><link>https://likun.cc/</link><description></description><atom:link href="https://likun.cc/categories/cat_default.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2024 &lt;a href="mailto:likun@msn.cn"&gt;李昆&lt;/a&gt; </copyright><lastBuildDate>Fri, 16 Feb 2024 01:59:54 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Likun.cc 的由来</title><link>https://likun.cc/posts/about-likun-cc/</link><dc:creator>李昆</dc:creator><description>&lt;section id="likun-cc"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>李昆 (关于 default 的文章)</title><link>https://likun.cc/</link><description></description><atom:link href="https://likun.cc/categories/cat_default.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2024 &lt;a href="mailto:likun@msn.cn"&gt;李昆&lt;/a&gt; </copyright><lastBuildDate>Fri, 16 Feb 2024 02:13:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Likun.cc 的由来</title><link>https://likun.cc/posts/about-likun-cc/</link><dc:creator>李昆</dc:creator><description>&lt;section id="likun-cc"&gt;
 &lt;h2&gt;为什么是 likun.cc&lt;/h2&gt;
 &lt;p&gt;.cc 本是科科斯群岛国家域名，但很多全球 500 强公司拿它作为 Commercial Company 用，让它成为了 .com 和 .net 之外的重要域名。&lt;/p&gt;
 &lt;p&gt;Likun.cc 也表达了本站为个人职业服务。&lt;/p&gt;
@@ -12,7 +12,6 @@
 &lt;p&gt;本站预设的用户有 BOSS、来自各招聘渠道 HR 和猎头。&lt;/p&gt;
 &lt;p&gt;它的主要内容是个人职业经历，菜单「简历」和「项目」都是职业的视角，采用简化的呈现形式，让阅读者更易阅读。&lt;/p&gt;
 &lt;p&gt;本站的成本只有域名费用，资源的投入几乎是一次性的，内容托管在微软的 GitHub，并在 CloudFlare CDN 以域名 dev.likun.cc 进行备份分发。&lt;/p&gt;
-&lt;p&gt;我期望每一次维护都是最后一次维护。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id="section-2"&gt;
 &lt;h2&gt;技术决策点&lt;/h2&gt;
