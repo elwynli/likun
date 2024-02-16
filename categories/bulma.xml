@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>李昆 (关于 bulma 的文章)</title><link>https://likun.cc/</link><description></description><atom:link href="https://likun.cc/categories/bulma.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2024 &lt;a href="mailto:likun@msn.cn"&gt;李昆&lt;/a&gt; </copyright><lastBuildDate>Fri, 16 Feb 2024 02:16:05 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Likun.cc 的由来</title><link>https://likun.cc/posts/about-likun-cc/</link><dc:creator>李昆</dc:creator><description>&lt;section id="likun-cc"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>李昆 (关于 bulma 的文章)</title><link>https://likun.cc/</link><description></description><atom:link href="https://likun.cc/categories/bulma.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2024 &lt;a href="mailto:likun@msn.cn"&gt;李昆&lt;/a&gt; </copyright><lastBuildDate>Fri, 16 Feb 2024 02:19:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Likun.cc 的由来</title><link>https://likun.cc/posts/about-likun-cc/</link><dc:creator>李昆</dc:creator><description>&lt;section id="likun-cc"&gt;
 &lt;h2&gt;为什么是 likun.cc&lt;/h2&gt;
 &lt;p&gt;.cc 本是科科斯群岛国家域名，但很多全球 500 强公司拿它作为 Commercial Company 用，让它成为了 .com 和 .net 之外的重要域名。&lt;/p&gt;
 &lt;p&gt;Likun.cc 也表达了本站为个人职业服务。&lt;/p&gt;
@@ -21,7 +21,7 @@
 &lt;p&gt;「前端人越过了 Angular、React、VUE、Svelte 之山，构建与打包之崖，发现前端的起点和终点，都是纯 CSS 和 JavaScript。」&lt;/p&gt;
 &lt;p&gt;一方面，这句可能的意义是，从兼容性和成本上考虑，不引入第三方 CSS 和 JavaScript 框架依赖都是技术路径和掌控力最高的选择；&lt;/p&gt;
 &lt;p&gt;另一方面，从软件的开发成本和可维护性上考虑，引入一个现代的响应式 CSS 框架却是更好的选择。&lt;/p&gt;
-&lt;p&gt;还有一个考虑是，内容用 rst &lt;a class="footnote-reference brackets" href="https://likun.cc/posts/about-likun-cc/#f1" id="footnote-reference-1" role="doc-noteref"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;1&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/a&gt; 中使用 raw html，既可控制页面细节，也方便将内容集中在 Json 中，实现样式和内容的分离，提高了可维护性。&lt;/p&gt;
+&lt;p&gt;还有一个考虑是，内容用 rst &lt;a class="footnote-reference brackets" href="https://likun.cc/posts/about-likun-cc/#f1" id="footnote-reference-1" role="doc-noteref"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;1&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/a&gt; 中使用 raw html，既可控制页面细节，也方便将内容集中在 json 中，实现样式和内容的分离，提高了可维护性，具体来说，每新指定一篇内容，只需要复制 3 行代码，分别是文章的标题、链接、标签。&lt;/p&gt;
 &lt;p&gt;技术栈具体来说，采用 Nikola，主要考虑其格式支持广泛，CSS 上使用比 BootStrap 更现代化一些的 bulma.css 定制的 Theme，源码可见项目标签最后的条目。&lt;/p&gt;
 &lt;p&gt;技术之路，蓦然回首，灯火阑珊。&lt;/p&gt;
 &lt;/section&gt;
