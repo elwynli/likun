@@ -16,7 +16,7 @@
 'render_pages', (9216, 56)
 'copy_assets:output\\assets\\css\\rst_base.css', (161280, 545)
 'copy_assets:output\\assets\\js\\baguetteBox.min.js', (10240, 460)
-'sitemap:output\\sitemap.xml', (464896, 5095)
+'sitemap:output\\sitemap.xml', (464896, 5090)
 '_scan_locs:sitemap', (415232, 1355)
 'create_bundles:output\\assets\\css\\all.css', (279040, 964)
 'sitemap', (13312, 56)
