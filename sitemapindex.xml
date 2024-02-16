@@ -6,15 +6,31 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://likun.cc/categories/bulma.xml</loc>
+  <lastmod>2024-02-16T01:19:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://likun.cc/categories/cat_default.xml</loc>
+  <lastmod>2024-02-16T01:19:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://likun.cc/categories/likun.xml</loc>
+  <lastmod>2024-02-16T01:18:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://likun.cc/categories/nikola.xml</loc>
+  <lastmod>2024-02-16T01:19:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://likun.cc/galleries/rss.xml</loc>
-  <lastmod>2024-02-05T15:50:00Z</lastmod>
+  <lastmod>2024-02-16T01:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://likun.cc/rss.xml</loc>
-  <lastmod>2024-02-01T15:16:00Z</lastmod>
+  <lastmod>2024-02-16T01:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://likun.cc/sitemap.xml</loc>
-  <lastmod>2024-02-05T15:50:00Z</lastmod>
+  <lastmod>2024-02-16T01:37:00Z</lastmod>
  </sitemap>
 </sitemapindex>

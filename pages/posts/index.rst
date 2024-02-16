@@ -23,7 +23,7 @@
             <h4 class="is-size-4"><%= o.category %></h4>
             <ul>
                 <% _.each(o.post, function(o2, i2, l2){ %>
-                <li><a href="<%= o.href %>" target="_blank"><%= o2.name %></a></li>
+                <li><a href="<%= o2.href %>" target="_blank"><%= o2.name %></a></li>
                 <% }) %>
             </ul>
             <% }) %>
@@ -32,11 +32,11 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             var data = [{
-                'category': '软件',
+                'category': '软件研发',
                 'post': [{
-                    'name': '软件研发',
-                    'href': '',
-                    'tags': ['软件工程'],
+                    'name': 'Likun.cc 的由来',
+                    'href': 'https://likun.cc/posts/about-likun-cc.html',
+                    'tags': ['nikola', 'bulma'],
                     'desc': '',
                     'src': ''
                 }]

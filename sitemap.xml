@@ -15,11 +15,27 @@
  </url>
  <url>
   <loc>https://likun.cc/archive.html</loc>
-  <lastmod>2024-02-05T15:50:00Z</lastmod>
+  <lastmod>2024-02-16T01:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://likun.cc/categories/</loc>
-  <lastmod>2024-02-01T15:16:00Z</lastmod>
+  <lastmod>2024-02-16T01:19:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://likun.cc/categories/bulma/</loc>
+  <lastmod>2024-02-16T01:19:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://likun.cc/categories/cat_default/</loc>
+  <lastmod>2024-02-15T15:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://likun.cc/categories/likun/</loc>
+  <lastmod>2024-02-15T15:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://likun.cc/categories/nikola/</loc>
+  <lastmod>2024-02-16T01:19:00Z</lastmod>
  </url>
  <url>
   <loc>https://likun.cc/galleries/</loc>
@@ -46,7 +62,7 @@
   <lastmod>2024-02-01T15:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://likun.cc/posts/about-this-website/</loc>
-  <lastmod>2024-02-01T15:16:00Z</lastmod>
+  <loc>https://likun.cc/posts/about-likun-cc/</loc>
+  <lastmod>2024-02-15T15:44:00Z</lastmod>
  </url>
 </urlset>
